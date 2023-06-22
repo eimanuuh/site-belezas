@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #eb7dbd;
+    color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+
+.texto-imagem{
+    width: 25%;
+}
+
+#texto{
+    background-image: linear-gradient(#e724ad,#c13aee);
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.texto-div-conteudo{
+    width: 35%;
+}
+
+
+.texto-titulo{
+    padding: 24px 0;
+}
+
+#jogadores{
+    padding: 24px 0;
+    color: #ee3cc7;
+}
+
+
+.jogador-imagem{
+    width: 120px;
+}
+
+.jogador-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.jogador-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.jogador-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.jogador-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: rgb(198, 199, 183);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
